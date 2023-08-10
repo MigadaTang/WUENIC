@@ -1,0 +1,89 @@
+type checking: on
+
+the templates are:
+    WUENIC decides the coverage in *a country* for *a vaccine* for *a year* is *a number* due to the fact that *a rule with explanation*.
+    the coverage for *a country* for *a vaccine* for *a year* is *a number*.
+    the government estimate for *a country* for *a vaccine* for *a year* is *a number*.
+    the administrative estimate for *a country* for *a vaccine* for *a year* is *a number*.
+	the survey estimate for *a country* for *a vaccine* for *a year* is *a number*.
+    the accepted survey estimate for *a country* for *a vaccine* for *a year* is *a number*.
+    *a chart* depicts the coverage for *a country* for *a vaccine*.
+
+scenario wuenic is:
+the coverage for sdn for bcg for 1997 is 0.70.
+the coverage for sdn for bcg for 1998 is 0.71.
+the coverage for sdn for bcg for 1999 is 0.73.
+the coverage for sdn for bcg for 2000 is 0.66.
+the coverage for sdn for bcg for 2001 is 0.71.
+the coverage for sdn for bcg for 2002 is 0.68.
+the coverage for sdn for bcg for 2003 is 0.73.
+the coverage for sdn for bcg for 2004 is 0.71.
+the coverage for sdn for bcg for 2005 is 0.77.
+the coverage for sdn for bcg for 2006 is 0.78.
+the coverage for sdn for bcg for 2007 is 0.85.
+the coverage for sdn for bcg for 2008 is 0.85.
+the coverage for sdn for bcg for 2009 is 0.86.
+
+the government estimate for sdn for bcg for 1999 is 0.92.
+the government estimate for sdn for bcg for 2000 is 0.66.
+the government estimate for sdn for bcg for 2001 is 0.71.
+the government estimate for sdn for bcg for 2002 is 0.68.
+the government estimate for sdn for bcg for 2003 is 0.73.
+the government estimate for sdn for bcg for 2004 is 0.71.
+the government estimate for sdn for bcg for 2005 is 0.77.
+the government estimate for sdn for bcg for 2006 is 0.78.
+the government estimate for sdn for bcg for 2007 is 0.85.
+the government estimate for sdn for bcg for 2008 is 0.85.
+the government estimate for sdn for bcg for 2009 is 0.86.
+
+the administrative estimate for sdn for bcg for 1999 is 1.02.
+the administrative estimate for sdn for bcg for 2000 is 0.66.
+the administrative estimate for sdn for bcg for 2001 is 0.71.
+the administrative estimate for sdn for bcg for 2002 is 0.68.
+the administrative estimate for sdn for bcg for 2003 is 0.73.
+the administrative estimate for sdn for bcg for 2004 is 0.71.
+the administrative estimate for sdn for bcg for 2005 is 0.77.
+the administrative estimate for sdn for bcg for 2006 is 0.78.
+the administrative estimate for sdn for bcg for 2007 is 0.85.
+the administrative estimate for sdn for bcg for 2008 is 0.85.
+the administrative estimate for sdn for bcg for 2009 is 0.86.
+
+the survey estimate for sdn for bcg for 1999 is 0.66.
+the survey estimate for sdn for bcg for 2005 is 0.75.
+
+the accepted survey estimate for sdn for bcg for 1999 is 0.66.
+the accepted survey estimate for sdn for bcg for 2005 is 0.75.
+    
+query accepted is:
+    the accepted survey estimate for sdn for bcg for which year is which number.
+
+    
+the plots are:
+    a chart depicts the coverage for a country C for a vaccine V if
+    the chart has AFG-BCG as title and Year as x axis label and Coverage as y axis label and x axis limits from 1997 to 2009 and y axis limits from 0 to 1.25
+    and the chart displays Y1 and N1
+        from the coverage for C for V for a year Y1 is a number N1
+        as a line 
+        with a colour of blue 
+        and a width of 5
+    and the chart displays Y2 and N2
+        from the coverage for C for V for a year Y2 is a number N2
+        as points 
+        with a colour of red 
+        and a plotting character of 8 
+        and a character expansion factor of 1.4
+    and the chart displays Y3 and N3
+        from the coverage for C for V for a year Y3 is a number N3
+        as vertical lines 
+        with a colour of red 
+        and a width of 3
+    and the chart displays a straight line 
+        with a height of 1.0 
+        and a colour of pink and a width of 2
+    and the chart displays legend at topright 
+        with a text of ['WHO-UNICEF estimate for DTP1','WHO-UNICEF estimate for DTP3','Official government estimate','Administrative coverage','Survey 12-23 months of age, card or history','Accepted survey, resolved value'] 
+        and a colour of [blue,purple,pink,red,red,green] 
+        and a plotting character of [-1,-1,20,8,124,18] 
+        and a character expansion factor of 1.0 
+        and a line type of [1,1,-1,-1,-1,-1] 
+        and a box type of n.

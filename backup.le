@@ -1,0 +1,21 @@
+docker run --net=none --name=rserve rserve 
+docker run --volumes-from rserve -it -p 8082:3050 -v /Users/tang/swish_data:/data -v /Users/tang/prolog_output:/prolog_output -v /Users/tang/projects/LogicalEnglish:/app  -e LOAD_KB=true  --memory="300m" logicalcontracts/swish-xmas2022-multi
+
+open('/prolog_output/output.txt',write,Out),
+    write(Out,'Age(Peter,30)'),
+    write(Out,'Skin(Smith,Black).'),
+    close(Out).
+
+working_directory(X, '/swish').
+pack_install('rserve_client').
+pack_remove(rserve_client).
+use_module(lib/r_swish).
+use_module(library(r/r_call)).
+A <- 1:10.  
+
+pack_remove(logicalenglish).
+pack_install('/Users/tang/projects/LogicalEnglish/pack/logicalenglish-0.0.4.zip').
+use_module(library(le_answer)).
+
+set_setting_default(rserve:host, '127.0.0.1').
+set_setting_default(rserve:port, 6311).
