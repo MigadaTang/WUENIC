@@ -16,7 +16,7 @@ the templates are:
     the legacy data shows that *an indication*.
     the collected survey data shows that *an indication*.
     the working group decides that *a working group decisison*.
-    the coverage in *a country* for *a vaccine* for *a year* should be changed from *a number* to *a number* according to rule *a rule* and explanation *an explanation*.
+    the coverage in *a country* for *a vaccine* for *a year* should be changed from *a number* to *a number* according to rule *a rule* and *an explanation*.
     there is an interpolate segment between *a year* and *a year* for *a country* for *a vaccine* because *a reason*.
 
     % wuenic
@@ -41,7 +41,7 @@ the templates are:
     there is a type *a type* anchor point after *a year* for *a country* for *a vaccine*.
     there are type *a type* anchor points between *a year* and *a year* for *a country* for *a vaccine*.
     the survey data *a number* supports report data *a number*.
-    the average of *a number* of surveys in *a country* for *a vaccine* for *a year* is *a number*.
+    the average of *a number* surveys in *a country* for *a vaccine* for *a year* is *a number*.
     reported data *a number* not consistent with survey results *a number*.
     survey estimate *a number* given by *a number* surveys confirms reported data *a number*.
     survey estimate *a number* given by *a number* surveys confirms trend in reported data.
@@ -92,7 +92,7 @@ the knowledge base wuenic includes:
     and it is not the case that 
         there is a type a type AT1 anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number N2 due to the fact that an explanation E2
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number N3 to a number N4 according to rule assignWUENIC and explanation an explanation E3
+        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number N3 to a number N4 according to rule assignWUENIC and an explanation E3
     and there is reported time series showing that the coverage in the country for the vaccine for the year is the number due to the fact that E1.
 
     WUENIC decides the coverage in a country C for dtp1 for a year Y is a number Cov due to the fact that rule RMF and no DTP1 data available for any year estimate based on the relationship between DTP1 and DTP3 from 282 surveys if
@@ -100,16 +100,16 @@ the knowledge base wuenic includes:
     and it is not the case that
         there is reported time series showing that the coverage in C for dtp1 for Y is a number P1 due to the fact that an explanation E1
     and it is not the case that
-        the average of a number Nsurvey of surveys in C for dtp1 for a year Y1 is a number P2
+        the average of a number Nsurvey surveys in C for dtp1 for a year Y1 is a number P2
     and it is not the case that
-        the working group decides that the coverage in C for dtp1 for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in C for dtp1 for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and WUENIC decides the coverage in C for dtp3 for Y is a number Dtp3Coverage due to the fact that an explanation E3
     and Cov = ((Dtp3Coverage * 100) + (-0.006 * ((Dtp3Coverage*100)*(Dtp3Coverage*100))) + (0.4799 * (Dtp3Coverage*100)) + 16.67) / 100.
 
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number P due to the fact that rule AP a type AT1 and an explanation E1 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
         the year Y of the coverage for the country for the vaccine is between wgd segment
     and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y is P due to the fact that E1.
@@ -121,7 +121,7 @@ the knowledge base wuenic includes:
     and it is not the case that
         the year Y of the coverage for the country for the vaccine is between wgd segment
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and explanation an explanation E3
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and an explanation E3
     and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1 due to the fact that an explanation E4
     and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2 due to the fact that an explanation E5
     and Y1 < Y
@@ -137,7 +137,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country C for a vaccine V for a year Y is a number Coverage due to the fact that rule CAP and reported data a number ReportedTimeSeries calibrated to a year Y1 level a number Psurv if
     estimate is required for C for V for Y
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E1
+        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and it is not the case that
         there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E2
     and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Psurv due to the fact that an explanation E3
@@ -157,7 +157,7 @@ the knowledge base wuenic includes:
     and it is not the case that
         the year Y of the coverage for the country for the vaccine is between wgd segment
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and an explanation E2
     and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1 due to the fact that an explanation E3
     and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2 due to the fact that an explanation E4
     and Y1 < Y
@@ -175,7 +175,7 @@ the knowledge base wuenic includes:
     and it is not the case that
         there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that an explanation E2
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and explanation an explanation E3
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and an explanation E3
     and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R2 due to the fact that an explanation R21
     and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for a year Y2 is a number R3 due to the fact that an explanation R31
     and AT1 is in [R, XR]
@@ -189,7 +189,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number P due to the fact that rule WGD IBAP and estimate based on working group decision to interpolate between a year Y1 and a year Y2 and an explanation E1 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and there is an interpolate segment between Y1 and Y2 for the country for the vaccine because E1
     and Y1 < Y
     and Y < Y2
@@ -200,7 +200,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number P due to the fact that rule RFAP a type T and estimate based on trend in reported data and an explanation E1 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
         there is a type a type R3 anchor point indicating that the coverage in the country for the vaccine for Y is a number R4 due to the fact that an explanation E3
     and there is a type T anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R6 due to the fact that an explanation E4
@@ -215,7 +215,7 @@ the knowledge base wuenic includes:
     and it is not the case that
         there is a type a type R3 anchor point indicating that the coverage in the country for the vaccine for Y is a number R4 due to the fact that an explanation E2
     and it is not the case that 
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E3
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E3
     and there is a type T anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R6 due to the fact that an explanation E4
     and T is in [R, XR]
     and Y1 < Y
@@ -226,7 +226,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country C for a vaccine V for a year Y is a number Coverage due to the fact that rule EFAP and estimate extrapolated from a year Y1 value of Coverage and an explanation E1 if
     estimate is required for C for V for Y
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
         there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E3
     and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Coverage due to the fact that an explanation E4
@@ -242,7 +242,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country C for a vaccine V for a year Y is a number Coverage due to the fact that rule EFAP and estimate extrapolated from a year Y1 value of Coverage and an explanation E1 if
     estimate is required for C for V for Y
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E2
+        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
         there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E3
     and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Coverage due to the fact that an explanation E4
@@ -258,7 +258,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country C for a vaccine V for a year Y is a number Coverage due to the fact that rule CFAP and reported data a number ReportedTimeSeries calibrated to a year Y1 level a number Psurv if
     estimate is required for C for V for Y
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E1
+        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and it is not the case that
         there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E2
     and it is not the case that
@@ -275,7 +275,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country C for a vaccine V for a year Y is a number Coverage due to the fact that rule CSAP and estimate calibrated to a year Y1 level a number AnchorValue and reported coverage a number ReportedTimeSeries if
     estimate is required for C for V for Y
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E1
+        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is AnchorValue due to the fact that an explanation E2
     and it is not the case that
         Y1 = Y
@@ -290,7 +290,7 @@ the knowledge base wuenic includes:
     and the reported data in C for V for Y is Coverage calibrated from anchor value AnchorValue and year Y1 and reported time series value ReportedTimeSeries with a number Adj as adjustment.
 
 the knowledge base survey includes:
-    the average of a number Nsurvey of surveys in a country for a vaccine for a year Y is a number Average if
+    the average of a number Nsurvey surveys in a country for a vaccine for a year Y is a number Average if
     a thing Plist is a bag of a number Pcoll such that the accepted survey data shows that the coverage in the country for the vaccine for Y is Pcoll
     and the length of Plist is Nsurvey 
     and a number Total is the sum of each number such that 
@@ -309,7 +309,7 @@ the knowledge base survey includes:
     and M is card or history
     and G is in [12-23 m,12-24 m, 18-29 m, 15-27 m,15-26 m]
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from Coverage to a number N2 according to rule ignoreSurvey and explanation an explanation E1
+        the working group decides that the coverage in C for V for Y should be changed from Coverage to a number N2 according to rule ignoreSurvey and an explanation E1
     and it is not the case that
         the modified survey data with title as T and survey type as ST and year data collected from Y1 and card retention as N and confirmation method as M and age cohort of G and validity till Y2 and sample size as SS shows that the coverage in C for V for Y is modified from Coverage to a number NewCov due to the fact that an explanation E2.
 
@@ -320,7 +320,7 @@ the knowledge base survey includes:
     and M is card or history
     and G is in [12-23 m,12-24 m, 18-29 m, 15-27 m,15-26 m]
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from Coverage to a number N2 according to rule ignoreSurvey and explanation an explanation E1
+        the working group decides that the coverage in C for V for Y should be changed from Coverage to a number N2 according to rule ignoreSurvey and an explanation E1
     and the modified survey data with title as T and survey type as ST and year data collected from Y1 and card retention as N and confirmation method as M and age cohort of G and validity till Y2 and sample size as SS shows that the coverage in C for V for Y is modified from Ps to Coverage due to the fact that an explanation E2.
 
 
@@ -330,7 +330,7 @@ the knowledge base survey includes:
     and M is card or history
     and G is in [12-23 m,12-24 m, 18-29 m, 15-27 m,15-26 m]
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from Ps to a number N2 according to rule ignoreSurvey and explanation an explanation E2
+        the working group decides that the coverage in C for V for Y should be changed from Ps to a number N2 according to rule ignoreSurvey and an explanation E2
     and the third dose survey data adjusted for recall bias with survey result as Ps and title as T and survey type as ST and year data collected from Y1 and card retention as N and confirmation method as M and age cohort of G and validity till Y2 and sample size as SS shows that the coverage in C for V for Y is Coverage due to the fact that E1.
 
 
@@ -422,13 +422,13 @@ the knowledge base reported includes:
     there is sudden temporal change in Cov in the country for the vaccine for the year.
 
     the reported data is excluded for indicating that the coverage in a country for a vaccine for a year is a number Cov due to the fact that the year reported data Cov ignored by working group because an explanation E1 if
-    the working group decides that the coverage in the country for the vaccine for the year should be changed from Cov to a number N2 according to rule ignoreReported and explanation E1
+    the working group decides that the coverage in the country for the vaccine for the year should be changed from Cov to a number N2 according to rule ignoreReported and E1
     and the reported data shows that the coverage in the country for the vaccine for the year is Cov.
 
     there is sudden temporal change in a number Cov in a country for a vaccine for a year Y if
     the reported data shows that the coverage in the country for the vaccine for Y is Cov
     and it is not the case that 
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule acceptReported and explanation an explanation E1
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule acceptReported and an explanation E1
     and the reported data shows that the coverage in the country for the vaccine for a year Y1 is a number P1
     and the reported data shows that the coverage in the country for the vaccine for a year Y2 is a number P2
     and Y - Y1 =:= 1
@@ -441,7 +441,7 @@ the knowledge base reported includes:
     there is sudden temporal change in a number Cov in a country for a vaccine for a year Y if
     the reported data shows that the coverage in the country for the vaccine for Y is Cov
     and it is not the case that 
-        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule acceptReported and explanation an explanation E1
+        the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule acceptReported and an explanation E1
     and it is not the case that
         there is reported data after Y in the country for the vaccine
     and the reported data shows that the coverage in the country for the vaccine for a year Y1 is a number P1
@@ -453,13 +453,13 @@ the knowledge base anchor point includes:
 
     there is a type XR anchor point indicating that the coverage in a country for a vaccine for a year is a report number due to the fact that an explanation if
     estimate is required for the country for the vaccine for the year
-    and the working group decides that the coverage in the country for the vaccine for the year should be changed from a random number to a working group number according to rule assignAnchor and explanation the explanation
+    and the working group decides that the coverage in the country for the vaccine for the year should be changed from a random number to a working group number according to rule assignAnchor and the explanation
     and there is reported time series showing that the coverage in the country for the vaccine for the year is the report number due to the fact that a random reason
     and the report number = the working group number.
 
     there is a type X anchor point indicating that the coverage in a country for a vaccine for a year is a working group number due to the fact that an explanation if
     estimate is required for the country for the vaccine for the year
-    and the working group decides that the coverage in the country for the vaccine for the year should be changed from a random number to the working group number according to rule assignAnchor and explanation the explanation
+    and the working group decides that the coverage in the country for the vaccine for the year should be changed from a random number to the working group number according to rule assignAnchor and the explanation
     and there is reported time series showing that the coverage in the country for the vaccine for the year is a report number due to the fact that a random reason
     and it is not the case that 
         the report number = the working group number.
@@ -467,28 +467,28 @@ the knowledge base anchor point includes:
     there is a type R anchor point indicating that the coverage in a country for a vaccine for a year is a number Preported due to the fact that survey estimate a number Psurvey given by a number Nsurvey surveys confirms reported data Preported if
     estimate is required for the country for the vaccine for the year
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and explanation an explanation R3
+        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and an explanation R3
     and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported due to the fact that a reason R4
     and the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is a number R5 due to the fact that a reason R6
-    and the average of Nsurvey of surveys in the country for the vaccine for the year is Psurvey
+    and the average of Nsurvey surveys in the country for the vaccine for the year is Psurvey
     and the survey data Psurvey supports report data Preported.
 
     there is a type R anchor point indicating that the coverage in a country for a vaccine for a year is a number Preported due to the fact that survey estimate a number Psurvey given by a number Nsurvey surveys confirms trend in reported data if
     estimate is required for the country for the vaccine for the year
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and explanation an explanation R3
+        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and an explanation R3
     and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported due to the fact that a reason R4
     and it is not the case that 
         the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is a number R5 due to the fact that a reason R6
-    and the average of Nsurvey of surveys in the country for the vaccine for the year is Psurvey
+    and the average of Nsurvey surveys in the country for the vaccine for the year is Psurvey
     and the survey data Psurvey supports report data Preported.
 
     there is a type S anchor point indicating that the coverage in a country for a vaccine for a year is a number Psurvey due to the fact that reported data a number Preported not consistent with survey results Psurvey if
     estimate is required for the country for the vaccine for the year
     and it is not the case that
-        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and explanation an explanation E1
+        the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and an explanation E1
     and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported due to the fact that a reason R4
-    and the average of a number Nsurvey of surveys in the country for the vaccine for the year is Psurvey
+    and the average of a number Nsurvey surveys in the country for the vaccine for the year is Psurvey
     and it is not the case that
         the survey data Psurvey supports report data Preported.
 
@@ -550,7 +550,7 @@ the knowledge base utilities includes:
     the coverage in a country C for a vaccine V for a year Y has been calibrated if
     estimate is required for C for V for Y
     and it is not the case that
-        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and explanation an explanation E1
+        the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and it is not the case that
         there is a type a type AT3 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that a reason R3
     and there is a type a type AT1 anchor point indicating that the coverage in C for V for a year Y1 is a number N4 due to the fact that a reason R1
@@ -575,81 +575,6 @@ the knowledge base collect data includes:
     the survey data with title as a title T and survey type as a type ST and year data collected from a year Y1 and card retention as a number N and confirmation method as a method M and age cohort of a group G and validity till a year Y2 and sample size as a number SS shows that the coverage in C for V for Y is Coverage
     and M is card or history
     and G is in [12-23 m,12-24 m, 18-29 m, 15-27 m,15-26 m].
-
-scenario sdn_mcv is:
-    there is a scenario with surveys for sdn for mcv.
-
-    the title of the chart for sdn for mcv is sdn-mcv.
-
-    estimate is required for sdn for mcv for 1997.	
-    estimate is required for sdn for mcv for 1998.	
-    estimate is required for sdn for mcv for 1999.	
-    estimate is required for sdn for mcv for 2000.	
-    estimate is required for sdn for mcv for 2001.	
-    estimate is required for sdn for mcv for 2002.	
-    estimate is required for sdn for mcv for 2003.	
-    estimate is required for sdn for mcv for 2004.	
-    estimate is required for sdn for mcv for 2005.	
-    estimate is required for sdn for mcv for 2006.	
-    estimate is required for sdn for mcv for 2007.	
-    estimate is required for sdn for mcv for 2008.	
-    estimate is required for sdn for mcv for 2009.	
-    the administrative data shows that the coverage in sdn for mcv for 1999 is 0.88.	
-    the administrative data shows that the coverage in sdn for mcv for 2000 is 0.6.	
-    the administrative data shows that the coverage in sdn for mcv for 2001 is 0.8.	
-    the administrative data shows that the coverage in sdn for mcv for 2002 is 0.62.	
-    the administrative data shows that the coverage in sdn for mcv for 2003 is 0.7.	
-    the administrative data shows that the coverage in sdn for mcv for 2004 is 0.72.	
-    the administrative data shows that the coverage in sdn for mcv for 2005 is 0.73.	
-    the administrative data shows that the coverage in sdn for mcv for 2006 is 0.76.	
-    the administrative data shows that the coverage in sdn for mcv for 2007 is 0.8.	
-    the administrative data shows that the coverage in sdn for mcv for 2008 is 0.8.	
-    the administrative data shows that the coverage in sdn for mcv for 2009 is 0.83.	
-    the government data shows that the coverage in sdn for mcv for 1999 is 0.79.	
-    the government data shows that the coverage in sdn for mcv for 2000 is 0.6.	
-    the government data shows that the coverage in sdn for mcv for 2001 is 0.8.	
-    the government data shows that the coverage in sdn for mcv for 2002 is 0.62.	
-    the government data shows that the coverage in sdn for mcv for 2003 is 0.7.	
-    the government data shows that the coverage in sdn for mcv for 2004 is 0.72.	
-    the government data shows that the coverage in sdn for mcv for 2005 is 0.73.	
-    the government data shows that the coverage in sdn for mcv for 2006 is 0.76.	
-    the government data shows that the coverage in sdn for mcv for 2007 is 0.8.	
-    the government data shows that the coverage in sdn for mcv for 2008 is 0.8.	
-    the government data shows that the coverage in sdn for mcv for 2009 is 0.83.	
-    the legacy data shows that the coverage in sdn for mcv for 1997 is 0.58.	
-    the legacy data shows that the coverage in sdn for mcv for 1998 is 0.49.	
-    the legacy data shows that the coverage in sdn for mcv for 1999 is 0.51.	
-    the legacy data shows that the coverage in sdn for mcv for 2000 is 0.58.	
-    the legacy data shows that the coverage in sdn for mcv for 2001 is 0.58.	
-    the legacy data shows that the coverage in sdn for mcv for 2002 is 0.58.	
-    the legacy data shows that the coverage in sdn for mcv for 2003 is 0.65.	
-    the legacy data shows that the coverage in sdn for mcv for 2004 is 0.67.	
-    the legacy data shows that the coverage in sdn for mcv for 2005 is 0.69.	
-    the legacy data shows that the coverage in sdn for mcv for 2006 is 0.73.	
-    the legacy data shows that the coverage in sdn for mcv for 2007 is 0.79.	
-    the legacy data shows that the coverage in sdn for mcv for 2008 is 0.79.	
-    the reported data shows that the coverage in sdn for mcv for 1997 is 0.92.	
-    the reported data shows that the coverage in sdn for mcv for 1998 is 0.62.	
-    the reported data shows that the coverage in sdn for mcv for 1999 is 0.79.	
-    the reported data shows that the coverage in sdn for mcv for 2000 is 0.6.	
-    the reported data shows that the coverage in sdn for mcv for 2001 is 0.8.	
-    the reported data shows that the coverage in sdn for mcv for 2002 is 0.62.	
-    the reported data shows that the coverage in sdn for mcv for 2003 is 0.7.	
-    the reported data shows that the coverage in sdn for mcv for 2004 is 0.72.	
-    the reported data shows that the coverage in sdn for mcv for 2005 is 0.73.	
-    the reported data shows that the coverage in sdn for mcv for 2006 is 0.76.	
-    the reported data shows that the coverage in sdn for mcv for 2007 is 0.8.	
-    the reported data shows that the coverage in sdn for mcv for 2008 is 0.8.	
-    the reported data shows that the coverage in sdn for mcv for 2009 is 0.83.	
-    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.59.	
-    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.28.	
-    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.66.	
-    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.38.	
-    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.45.	
-    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.18.	
-    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.51.	
-    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.34.	
-    the working group decides that the coverage in sdn for mcv for 1997 should be changed from 0.58 to 0.58 according to rule assignAnchor and explanation Legacy estimate.	
 
 the plots are:
     a chart depicts the coverage for a country C for a vaccine V if
@@ -746,7 +671,7 @@ query reported_time_series is:
     there is reported time series showing that the coverage in sdn for bcg for 1999 is which number due to the fact that which reason.
 
 query survey_average is:
-    the average of which number N1 of surveys in which country for which vaccine for which year is which number N2.
+    the average of which number N1 surveys in which country for which vaccine for which year is which number N2.
 
 query survey_query is:
     the survey data with which description shows that the coverage in which country for which vaccine for which year is which number.

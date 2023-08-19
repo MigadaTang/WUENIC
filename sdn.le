@@ -1,0 +1,419 @@
+:- module(sdn,[]).
+
+
+scenario(en("
+    
+    there is a scenario without surveys for sdn for hepb3.
+    there is a scenario without surveys for sdn for hib3.
+    there is a scenario with surveys for sdn for bcg.
+    there is a scenario with surveys for sdn for dtp1.
+    there is a scenario with surveys for sdn for pol3.
+    there is a scenario with surveys for sdn for mcv.
+
+    the title of the chart for sdn for hepb3 is sdn-hepb3.
+    the title of the chart for sdn for hib3 is sdn-hib3.
+    the title of the chart for sdn for bcg is sdn-bcg.
+    the title of the chart for sdn for dtp1 is sdn-dtp1.
+    the title of the chart for sdn for pol3 is sdn-pol3.
+    the title of the chart for sdn for mcv is sdn-mcv.
+
+    estimate is required for sdn for hepb3 for 2005.	
+    estimate is required for sdn for hepb3 for 2006.	
+    estimate is required for sdn for hepb3 for 2007.	
+    estimate is required for sdn for hepb3 for 2008.	
+    estimate is required for sdn for hepb3 for 2009.	
+    the administrative data shows that the coverage in sdn for hepb3 for 2005 is 0.52.	
+    the administrative data shows that the coverage in sdn for hepb3 for 2006 is 0.68.	
+    the administrative data shows that the coverage in sdn for hepb3 for 2007 is 0.91.	
+    the administrative data shows that the coverage in sdn for hepb3 for 2008 is 0.93.	
+    the administrative data shows that the coverage in sdn for hepb3 for 2009 is 0.91.	
+    the government data shows that the coverage in sdn for hepb3 for 2005 is 0.52.	
+    the government data shows that the coverage in sdn for hepb3 for 2006 is 0.68.	
+    the government data shows that the coverage in sdn for hepb3 for 2007 is 0.91.	
+    the government data shows that the coverage in sdn for hepb3 for 2008 is 0.93.	
+    the government data shows that the coverage in sdn for hepb3 for 2009 is 0.91.	
+    the legacy data shows that the coverage in sdn for hepb3 for 2005 is 0.22.	
+    the legacy data shows that the coverage in sdn for hepb3 for 2006 is 0.6.	
+    the legacy data shows that the coverage in sdn for hepb3 for 2007 is 0.78.	
+    the legacy data shows that the coverage in sdn for hepb3 for 2008 is 0.86.	
+    the reported data shows that the coverage in sdn for hepb3 for 2005 is 0.52.	
+    the reported data shows that the coverage in sdn for hepb3 for 2006 is 0.68.	
+    the reported data shows that the coverage in sdn for hepb3 for 2007 is 0.91.	
+    the reported data shows that the coverage in sdn for hepb3 for 2008 is 0.93.	
+    the reported data shows that the coverage in sdn for hepb3 for 2009 is 0.91.	
+    the working group decides that the coverage in sdn for hepb3 for 2005 should be changed from 0 to 0 according to rule comment and HepB partially introduced in 2004 nationally in n/a reporting started in 2005.	
+
+    estimate is required for sdn for hib3 for 2008.	
+    estimate is required for sdn for hib3 for 2009.	
+    the administrative data shows that the coverage in sdn for hib3 for 2008 is 0.93.	
+    the administrative data shows that the coverage in sdn for hib3 for 2009 is 0.91.	
+    the government data shows that the coverage in sdn for hib3 for 2008 is 0.93.	
+    the government data shows that the coverage in sdn for hib3 for 2009 is 0.91.	
+    the legacy data shows that the coverage in sdn for hib3 for 2008 is 0.86.	
+    the reported data shows that the coverage in sdn for hib3 for 2008 is 0.93.	
+    the reported data shows that the coverage in sdn for hib3 for 2009 is 0.91.	
+    the working group decides that the coverage in sdn for hib3 for 2008 should be changed from 0 to 0 according to rule comment and Hib partially introduced in 2008 reporting started in 2008 Vaccine presentation is DTPHepBHib.	
+
+    
+    estimate is required for sdn for bcg for 1997.	
+    estimate is required for sdn for bcg for 1998.	
+    estimate is required for sdn for bcg for 1999.	
+    estimate is required for sdn for bcg for 2000.	
+    estimate is required for sdn for bcg for 2001.	
+    estimate is required for sdn for bcg for 2002.	
+    estimate is required for sdn for bcg for 2003.	
+    estimate is required for sdn for bcg for 2004.	
+    estimate is required for sdn for bcg for 2005.	
+    estimate is required for sdn for bcg for 2006.	
+    estimate is required for sdn for bcg for 2007.	
+    estimate is required for sdn for bcg for 2008.	
+    estimate is required for sdn for bcg for 2009.	
+    the administrative data shows that the coverage in sdn for bcg for 1999 is 1.02.	
+    the administrative data shows that the coverage in sdn for bcg for 2000 is 0.66.	
+    the administrative data shows that the coverage in sdn for bcg for 2001 is 0.71.	
+    the administrative data shows that the coverage in sdn for bcg for 2002 is 0.68.	
+    the administrative data shows that the coverage in sdn for bcg for 2003 is 0.73.	
+    the administrative data shows that the coverage in sdn for bcg for 2004 is 0.71.	
+    the administrative data shows that the coverage in sdn for bcg for 2005 is 0.77.	
+    the administrative data shows that the coverage in sdn for bcg for 2006 is 0.78.	
+    the administrative data shows that the coverage in sdn for bcg for 2007 is 0.85.	
+    the administrative data shows that the coverage in sdn for bcg for 2008 is 0.85.	
+    the administrative data shows that the coverage in sdn for bcg for 2009 is 0.86.	
+    the government data shows that the coverage in sdn for bcg for 1999 is 0.92.	
+    the government data shows that the coverage in sdn for bcg for 2000 is 0.66.	
+    the government data shows that the coverage in sdn for bcg for 2001 is 0.71.	
+    the government data shows that the coverage in sdn for bcg for 2002 is 0.68.	
+    the government data shows that the coverage in sdn for bcg for 2003 is 0.73.	
+    the government data shows that the coverage in sdn for bcg for 2004 is 0.71.	
+    the government data shows that the coverage in sdn for bcg for 2005 is 0.77.	
+    the government data shows that the coverage in sdn for bcg for 2006 is 0.78.	
+    the government data shows that the coverage in sdn for bcg for 2007 is 0.85.	
+    the government data shows that the coverage in sdn for bcg for 2008 is 0.85.	
+    the government data shows that the coverage in sdn for bcg for 2009 is 0.86.	
+    the legacy data shows that the coverage in sdn for bcg for 1997 is 0.7.	
+    the legacy data shows that the coverage in sdn for bcg for 1998 is 0.61.	
+    the legacy data shows that the coverage in sdn for bcg for 1999 is 0.68.	
+    the legacy data shows that the coverage in sdn for bcg for 2000 is 0.56.	
+    the legacy data shows that the coverage in sdn for bcg for 2001 is 0.67.	
+    the legacy data shows that the coverage in sdn for bcg for 2002 is 0.65.	
+    the legacy data shows that the coverage in sdn for bcg for 2003 is 0.69.	
+    the legacy data shows that the coverage in sdn for bcg for 2004 is 0.66.	
+    the legacy data shows that the coverage in sdn for bcg for 2005 is 0.72.	
+    the legacy data shows that the coverage in sdn for bcg for 2006 is 0.77.	
+    the legacy data shows that the coverage in sdn for bcg for 2007 is 0.83.	
+    the legacy data shows that the coverage in sdn for bcg for 2008 is 0.83.	
+    the reported data shows that the coverage in sdn for bcg for 1997 is 0.9.	
+    the reported data shows that the coverage in sdn for bcg for 1998 is 0.8.	
+    the reported data shows that the coverage in sdn for bcg for 1999 is 0.92.	
+    the reported data shows that the coverage in sdn for bcg for 2000 is 0.66.	
+    the reported data shows that the coverage in sdn for bcg for 2001 is 0.71.	
+    the reported data shows that the coverage in sdn for bcg for 2002 is 0.68.	
+    the reported data shows that the coverage in sdn for bcg for 2003 is 0.73.	
+    the reported data shows that the coverage in sdn for bcg for 2004 is 0.71.	
+    the reported data shows that the coverage in sdn for bcg for 2005 is 0.77.	
+    the reported data shows that the coverage in sdn for bcg for 2006 is 0.78.	
+    the reported data shows that the coverage in sdn for bcg for 2007 is 0.85.	
+    the reported data shows that the coverage in sdn for bcg for 2008 is 0.85.	
+    the reported data shows that the coverage in sdn for bcg for 2009 is 0.86.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for bcg for 2005 is 0.73.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for bcg for 2005 is 0.32.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for bcg for 2005 is 0.75.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for bcg for 2005 is 0.42.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.65.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.25.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.66.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.41.	
+    the working group decides that the coverage in sdn for bcg for 1997 should be changed from 0.7 to 0.7 according to rule assignAnchor and legacy estimate.	
+
+    estimate is required for sdn for dtp1 for 1997.
+    estimate is required for sdn for dtp1 for 1998.
+    estimate is required for sdn for dtp1 for 1999.
+    estimate is required for sdn for dtp1 for 2000.
+    estimate is required for sdn for dtp1 for 2001.
+    estimate is required for sdn for dtp1 for 2002.
+    estimate is required for sdn for dtp1 for 2003.
+    estimate is required for sdn for dtp1 for 2004.
+    estimate is required for sdn for dtp1 for 2005.
+    estimate is required for sdn for dtp1 for 2006.
+    estimate is required for sdn for dtp1 for 2007.
+    estimate is required for sdn for dtp1 for 2008.
+    estimate is required for sdn for dtp1 for 2009.
+
+    the working group decides that the coverage in sdn for dtp1 for 1997 should be changed from 0.78 to 0.78 according to rule assignAnchor and legacy estimate.
+    the working group decides that the coverage in sdn for dtp3 for 1997 should be changed from 0.55 to 0.55 according to rule assignAnchor and legacy estimate.
+
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp1 for 2005 is 0.71.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp1 for 2005 is 0.33.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp1 for 2005 is 0.74.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp1 for 2005 is 0.41.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp1 for 1999 is 0.65.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp1 for 1999 is 0.24.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp1 for 1999 is 0.66.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp1 for 1999 is 0.42.	
+
+
+    the administrative data shows that the coverage in sdn for dtp1 for 2000 is 0.79.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2001 is 0.85.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2002 is 0.8.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2003 is 0.89.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2004 is 0.88.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2005 is 0.95.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2006 is 0.95.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2007 is 1.0.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2008 is 1.01.	
+    the administrative data shows that the coverage in sdn for dtp1 for 2009 is 0.98.	
+    the government data shows that the coverage in sdn for dtp1 for 2000 is 0.7.	
+    the government data shows that the coverage in sdn for dtp1 for 2001 is 0.85.	
+    the government data shows that the coverage in sdn for dtp1 for 2002 is 0.8.	
+    the government data shows that the coverage in sdn for dtp1 for 2003 is 0.89.	
+    the government data shows that the coverage in sdn for dtp1 for 2004 is 0.88.	
+    the government data shows that the coverage in sdn for dtp1 for 2005 is 0.95.	
+    the government data shows that the coverage in sdn for dtp1 for 2006 is 0.95.	
+    the government data shows that the coverage in sdn for dtp1 for 2007 is 1.0.	
+    the government data shows that the coverage in sdn for dtp1 for 2008 is 1.01.	
+    the government data shows that the coverage in sdn for dtp1 for 2009 is 0.98.	
+    the legacy data shows that the coverage in sdn for dtp1 for 1997 is 0.78.	
+    the legacy data shows that the coverage in sdn for dtp1 for 1998 is 0.71.	
+    the legacy data shows that the coverage in sdn for dtp1 for 1999 is 0.69.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2000 is 0.75.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2001 is 0.79.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2002 is 0.75.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2003 is 0.83.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2004 is 0.82.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2005 is 0.88.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2006 is 0.91.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2007 is 0.95.	
+    the legacy data shows that the coverage in sdn for dtp1 for 2008 is 0.96.	
+    the reported data shows that the coverage in sdn for dtp1 for 2000 is 0.7.	
+    the reported data shows that the coverage in sdn for dtp1 for 2001 is 0.85.	
+    the reported data shows that the coverage in sdn for dtp1 for 2002 is 0.8.	
+    the reported data shows that the coverage in sdn for dtp1 for 2003 is 0.89.	
+    the reported data shows that the coverage in sdn for dtp1 for 2004 is 0.88.	
+    the reported data shows that the coverage in sdn for dtp1 for 2005 is 0.95.	
+    the reported data shows that the coverage in sdn for dtp1 for 2006 is 0.95.	
+    the reported data shows that the coverage in sdn for dtp1 for 2007 is 1.0.	
+    the reported data shows that the coverage in sdn for dtp1 for 2008 is 1.01.	
+    the reported data shows that the coverage in sdn for dtp1 for 2009 is 0.98.	
+
+
+    estimate is required for sdn for dtp3 for 1997.	
+    estimate is required for sdn for dtp3 for 1998.	
+    estimate is required for sdn for dtp3 for 1999.	
+    estimate is required for sdn for dtp3 for 2000.	
+    estimate is required for sdn for dtp3 for 2001.	
+    estimate is required for sdn for dtp3 for 2002.	
+    estimate is required for sdn for dtp3 for 2003.	
+    estimate is required for sdn for dtp3 for 2004.	
+    estimate is required for sdn for dtp3 for 2005.	
+    estimate is required for sdn for dtp3 for 2006.	
+    estimate is required for sdn for dtp3 for 2007.	
+    estimate is required for sdn for dtp3 for 2008.	
+    estimate is required for sdn for dtp3 for 2009.	
+    the administrative data shows that the coverage in sdn for dtp3 for 1999 is 0.79.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2000 is 0.65.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2001 is 0.7.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2002 is 0.64.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2003 is 0.74.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2004 is 0.79.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2005 is 0.83.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2006 is 0.85.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2007 is 0.91.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2008 is 0.93.	
+    the administrative data shows that the coverage in sdn for dtp3 for 2009 is 0.91.	
+    the government data shows that the coverage in sdn for dtp3 for 1999 is 0.79.	
+    the government data shows that the coverage in sdn for dtp3 for 2000 is 0.65.	
+    the government data shows that the coverage in sdn for dtp3 for 2001 is 0.7.	
+    the government data shows that the coverage in sdn for dtp3 for 2002 is 0.64.	
+    the government data shows that the coverage in sdn for dtp3 for 2003 is 0.74.	
+    the government data shows that the coverage in sdn for dtp3 for 2004 is 0.79.	
+    the government data shows that the coverage in sdn for dtp3 for 2005 is 0.83.	
+    the government data shows that the coverage in sdn for dtp3 for 2006 is 0.85.	
+    the government data shows that the coverage in sdn for dtp3 for 2007 is 0.91.	
+    the government data shows that the coverage in sdn for dtp3 for 2008 is 0.93.	
+    the government data shows that the coverage in sdn for dtp3 for 2009 is 0.91.	
+    the legacy data shows that the coverage in sdn for dtp3 for 1997 is 0.55.	
+    the legacy data shows that the coverage in sdn for dtp3 for 1998 is 0.46.	
+    the legacy data shows that the coverage in sdn for dtp3 for 1999 is 0.44.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2000 is 0.62.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2001 is 0.66.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2002 is 0.6.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2003 is 0.69.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2004 is 0.74.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2005 is 0.78.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2006 is 0.78.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2007 is 0.84.	
+    the legacy data shows that the coverage in sdn for dtp3 for 2008 is 0.86.	
+    the reported data shows that the coverage in sdn for dtp3 for 1997 is 0.78.	
+    the reported data shows that the coverage in sdn for dtp3 for 1998 is 0.7.	
+    the reported data shows that the coverage in sdn for dtp3 for 1999 is 0.79.	
+    the reported data shows that the coverage in sdn for dtp3 for 2000 is 0.65.	
+    the reported data shows that the coverage in sdn for dtp3 for 2001 is 0.7.	
+    the reported data shows that the coverage in sdn for dtp3 for 2002 is 0.64.	
+    the reported data shows that the coverage in sdn for dtp3 for 2003 is 0.74.	
+    the reported data shows that the coverage in sdn for dtp3 for 2004 is 0.79.	
+    the reported data shows that the coverage in sdn for dtp3 for 2005 is 0.83.	
+    the reported data shows that the coverage in sdn for dtp3 for 2006 is 0.85.	
+    the reported data shows that the coverage in sdn for dtp3 for 2007 is 0.91.	
+    the reported data shows that the coverage in sdn for dtp3 for 2008 is 0.93.	
+    the reported data shows that the coverage in sdn for dtp3 for 2009 is 0.91.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp3 for 2005 is 0.53.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp3 for 2005 is 0.3.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp3 for 2005 is 0.55.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp3 for 2005 is 0.25.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp3 for 1999 is 0.42.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp3 for 1999 is 0.2.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp3 for 1999 is 0.44.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for dtp3 for 1999 is 0.24.	
+    
+    estimate is required for sdn for pol3 for 1997.	
+    estimate is required for sdn for pol3 for 1998.	
+    estimate is required for sdn for pol3 for 1999.	
+    estimate is required for sdn for pol3 for 2000.	
+    estimate is required for sdn for pol3 for 2001.	
+    estimate is required for sdn for pol3 for 2002.	
+    estimate is required for sdn for pol3 for 2003.	
+    estimate is required for sdn for pol3 for 2004.	
+    estimate is required for sdn for pol3 for 2005.	
+    estimate is required for sdn for pol3 for 2006.	
+    estimate is required for sdn for pol3 for 2007.	
+    estimate is required for sdn for pol3 for 2008.	
+    estimate is required for sdn for pol3 for 2009.	
+    the administrative data shows that the coverage in sdn for pol3 for 1999 is 0.78.	
+    the administrative data shows that the coverage in sdn for pol3 for 2000 is 0.65.	
+    the administrative data shows that the coverage in sdn for pol3 for 2001 is 0.71.	
+    the administrative data shows that the coverage in sdn for pol3 for 2002 is 0.64.	
+    the administrative data shows that the coverage in sdn for pol3 for 2003 is 0.74.	
+    the administrative data shows that the coverage in sdn for pol3 for 2004 is 0.79.	
+    the administrative data shows that the coverage in sdn for pol3 for 2005 is 0.83.	
+    the administrative data shows that the coverage in sdn for pol3 for 2006 is 0.85.	
+    the administrative data shows that the coverage in sdn for pol3 for 2007 is 0.91.	
+    the administrative data shows that the coverage in sdn for pol3 for 2008 is 0.92.	
+    the administrative data shows that the coverage in sdn for pol3 for 2009 is 0.91.	
+    the government data shows that the coverage in sdn for pol3 for 1999 is 0.78.	
+    the government data shows that the coverage in sdn for pol3 for 2000 is 0.65.	
+    the government data shows that the coverage in sdn for pol3 for 2001 is 0.71.	
+    the government data shows that the coverage in sdn for pol3 for 2002 is 0.64.	
+    the government data shows that the coverage in sdn for pol3 for 2003 is 0.74.	
+    the government data shows that the coverage in sdn for pol3 for 2004 is 0.79.	
+    the government data shows that the coverage in sdn for pol3 for 2005 is 0.83.	
+    the government data shows that the coverage in sdn for pol3 for 2006 is 0.85.	
+    the government data shows that the coverage in sdn for pol3 for 2007 is 0.91.	
+    the government data shows that the coverage in sdn for pol3 for 2008 is 0.92.	
+    the government data shows that the coverage in sdn for pol3 for 2009 is 0.91.	
+    the legacy data shows that the coverage in sdn for pol3 for 1997 is 0.55.	
+    the legacy data shows that the coverage in sdn for pol3 for 1998 is 0.48.	
+    the legacy data shows that the coverage in sdn for pol3 for 1999 is 0.48.	
+    the legacy data shows that the coverage in sdn for pol3 for 2000 is 0.62.	
+    the legacy data shows that the coverage in sdn for pol3 for 2001 is 0.66.	
+    the legacy data shows that the coverage in sdn for pol3 for 2002 is 0.6.	
+    the legacy data shows that the coverage in sdn for pol3 for 2003 is 0.69.	
+    the legacy data shows that the coverage in sdn for pol3 for 2004 is 0.74.	
+    the legacy data shows that the coverage in sdn for pol3 for 2005 is 0.78.	
+    the legacy data shows that the coverage in sdn for pol3 for 2006 is 0.77.	
+    the legacy data shows that the coverage in sdn for pol3 for 2007 is 0.84.	
+    the legacy data shows that the coverage in sdn for pol3 for 2008 is 0.85.	
+    the reported data shows that the coverage in sdn for pol3 for 1997 is 0.78.	
+    the reported data shows that the coverage in sdn for pol3 for 1998 is 0.68.	
+    the reported data shows that the coverage in sdn for pol3 for 1999 is 0.78.	
+    the reported data shows that the coverage in sdn for pol3 for 2000 is 0.65.	
+    the reported data shows that the coverage in sdn for pol3 for 2001 is 0.71.	
+    the reported data shows that the coverage in sdn for pol3 for 2002 is 0.64.	
+    the reported data shows that the coverage in sdn for pol3 for 2003 is 0.74.	
+    the reported data shows that the coverage in sdn for pol3 for 2004 is 0.79.	
+    the reported data shows that the coverage in sdn for pol3 for 2005 is 0.83.	
+    the reported data shows that the coverage in sdn for pol3 for 2006 is 0.85.	
+    the reported data shows that the coverage in sdn for pol3 for 2007 is 0.91.	
+    the reported data shows that the coverage in sdn for pol3 for 2008 is 0.92.	
+    the reported data shows that the coverage in sdn for pol3 for 2009 is 0.91.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol3 for 2005 is 0.59.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol3 for 2005 is 0.29.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol3 for 2005 is 0.62.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol3 for 2005 is 0.32.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.44.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.18.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.48.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.27.	
+    the working group decides that the coverage in sdn for pol3 for 1997 should be changed from 0.55 to 0.55 according to rule assignAnchor and legacy estimate.	
+
+
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol1 for 2005 is 0.8.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol1 for 2005 is 0.33.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol1 for 2005 is 0.83.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol1 for 2005 is 0.49.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol1 for 1999 is 0.73.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol1 for 1999 is 0.21.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol1 for 1999 is 0.75.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol1 for 1999 is 0.53.	
+
+    estimate is required for sdn for mcv for 1997.	
+    estimate is required for sdn for mcv for 1998.	
+    estimate is required for sdn for mcv for 1999.	
+    estimate is required for sdn for mcv for 2000.	
+    estimate is required for sdn for mcv for 2001.	
+    estimate is required for sdn for mcv for 2002.	
+    estimate is required for sdn for mcv for 2003.	
+    estimate is required for sdn for mcv for 2004.	
+    estimate is required for sdn for mcv for 2005.	
+    estimate is required for sdn for mcv for 2006.	
+    estimate is required for sdn for mcv for 2007.	
+    estimate is required for sdn for mcv for 2008.	
+    estimate is required for sdn for mcv for 2009.	
+    the administrative data shows that the coverage in sdn for mcv for 1999 is 0.88.	
+    the administrative data shows that the coverage in sdn for mcv for 2000 is 0.6.	
+    the administrative data shows that the coverage in sdn for mcv for 2001 is 0.8.	
+    the administrative data shows that the coverage in sdn for mcv for 2002 is 0.62.	
+    the administrative data shows that the coverage in sdn for mcv for 2003 is 0.7.	
+    the administrative data shows that the coverage in sdn for mcv for 2004 is 0.72.	
+    the administrative data shows that the coverage in sdn for mcv for 2005 is 0.73.	
+    the administrative data shows that the coverage in sdn for mcv for 2006 is 0.76.	
+    the administrative data shows that the coverage in sdn for mcv for 2007 is 0.8.	
+    the administrative data shows that the coverage in sdn for mcv for 2008 is 0.8.	
+    the administrative data shows that the coverage in sdn for mcv for 2009 is 0.83.	
+    the government data shows that the coverage in sdn for mcv for 1999 is 0.79.	
+    the government data shows that the coverage in sdn for mcv for 2000 is 0.6.	
+    the government data shows that the coverage in sdn for mcv for 2001 is 0.8.	
+    the government data shows that the coverage in sdn for mcv for 2002 is 0.62.	
+    the government data shows that the coverage in sdn for mcv for 2003 is 0.7.	
+    the government data shows that the coverage in sdn for mcv for 2004 is 0.72.	
+    the government data shows that the coverage in sdn for mcv for 2005 is 0.73.	
+    the government data shows that the coverage in sdn for mcv for 2006 is 0.76.	
+    the government data shows that the coverage in sdn for mcv for 2007 is 0.8.	
+    the government data shows that the coverage in sdn for mcv for 2008 is 0.8.	
+    the government data shows that the coverage in sdn for mcv for 2009 is 0.83.	
+    the legacy data shows that the coverage in sdn for mcv for 1997 is 0.58.	
+    the legacy data shows that the coverage in sdn for mcv for 1998 is 0.49.	
+    the legacy data shows that the coverage in sdn for mcv for 1999 is 0.51.	
+    the legacy data shows that the coverage in sdn for mcv for 2000 is 0.58.	
+    the legacy data shows that the coverage in sdn for mcv for 2001 is 0.58.	
+    the legacy data shows that the coverage in sdn for mcv for 2002 is 0.58.	
+    the legacy data shows that the coverage in sdn for mcv for 2003 is 0.65.	
+    the legacy data shows that the coverage in sdn for mcv for 2004 is 0.67.	
+    the legacy data shows that the coverage in sdn for mcv for 2005 is 0.69.	
+    the legacy data shows that the coverage in sdn for mcv for 2006 is 0.73.	
+    the legacy data shows that the coverage in sdn for mcv for 2007 is 0.79.	
+    the legacy data shows that the coverage in sdn for mcv for 2008 is 0.79.	
+    the reported data shows that the coverage in sdn for mcv for 1997 is 0.92.	
+    the reported data shows that the coverage in sdn for mcv for 1998 is 0.62.	
+    the reported data shows that the coverage in sdn for mcv for 1999 is 0.79.	
+    the reported data shows that the coverage in sdn for mcv for 2000 is 0.6.	
+    the reported data shows that the coverage in sdn for mcv for 2001 is 0.8.	
+    the reported data shows that the coverage in sdn for mcv for 2002 is 0.62.	
+    the reported data shows that the coverage in sdn for mcv for 2003 is 0.7.	
+    the reported data shows that the coverage in sdn for mcv for 2004 is 0.72.	
+    the reported data shows that the coverage in sdn for mcv for 2005 is 0.73.	
+    the reported data shows that the coverage in sdn for mcv for 2006 is 0.76.	
+    the reported data shows that the coverage in sdn for mcv for 2007 is 0.8.	
+    the reported data shows that the coverage in sdn for mcv for 2008 is 0.8.	
+    the reported data shows that the coverage in sdn for mcv for 2009 is 0.83.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.59.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.28.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.66.	
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for mcv for 2005 is 0.38.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.45.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.18.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.51.	
+    the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.34.	
+    the working group decides that the coverage in sdn for mcv for 1997 should be changed from 0.58 to 0.58 according to rule assignAnchor and legacy estimate.	
+
+    
+")).
