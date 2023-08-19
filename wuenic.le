@@ -1,6 +1,11 @@
 the target language is: prolog.
 %type checking: on
 
+the meta predicates are:
+    the survey data with *a survey description* shows that *a coverage*.
+    the modified survey data with *a survey description* shows that *a coverage*.
+    the third dose survey data adjusted for recall bias with survey result as *a number* and *a survey description* shows that *an indication*.
+
 the templates are:
     %collect data
     estimate is required for *a country* for *a vaccine* for *a year*.
@@ -12,7 +17,6 @@ the templates are:
     the collected survey data shows that *an indication*.
     the working group decides that *a working group decisison*.
     the coverage in *a country* for *a vaccine* for *a year* should be changed from *a number* to *a number* according to rule *a rule* and explanation *an explanation*.
-    title is *a thing* and type is *a thing* and ycroll is *a thing* and cr is *a thing* and confirmation is *a thing* and age is *a thing* and timead is *a thing* and val is *a thing* and sample size is *a thing*.
     there is an interpolate segment between *a year* and *a year* for *a country* for *a vaccine* because *a reason*.
 
     % wuenic
@@ -45,7 +49,6 @@ the templates are:
     % rules and explanations for WUENIC decisions
     WUENIC decides the coverage in *a country* for *a vaccine* for *a year* is *a number* due to the fact that *a rule with explanation*.
     rule RO and *an explanation*.
-    %todo implement this
     rule RMF and no DTP1 data available for any year estimate based on the relationship between DTP1 and DTP3 from 282 surveys.
     rule AP *a type* and *an explanation*.
     rule RBAP *a type* and *a type* and *an explanation*.
@@ -61,9 +64,7 @@ the templates are:
     anchor points and reported time series have the same trend in *a country* for *a vaccine* between *a year* and *a year*.
 
     % survey data reviewed
-    the survey data with title as *a title* and survey type as *a type* and year data collected from *a year* and card retention as *a number* and confirmation method as *a method* and age cohort of *a group* and validity till *a year* and sample size as *a number* shows that *a coverage*.
-    the modified survey data with title as *a title* and survey type as *a type* and year data collected from *a year* and card retention as *a number* and confirmation method as *a method* and age cohort of *a group* and validity till *a year* and sample size as *a number* shows that *a coverage*.
-    the third dose survey data adjusted for recall bias with survey result as *a number* and title as *a title* and survey type as *a type* and year data collected from *a year* and card retention as *a number* and confirmation method as *a method* and age cohort of *a group* and validity till *a year* and sample size as *a number* shows that *an indication*.
+    title as *a title* and survey type as *a type* and year data collected from *a year* and card retention as *a number* and confirmation method as *a method* and age cohort of *a group* and validity till *a year* and sample size as *a number*.
     the coverage in *a country* for *a vaccine* for *a year* is modified from *a number* to *a number* due to the fact that *an explanation*.
     the accepted survey data shows that *an indication*.
     survey results *a number* adjusted for recall bias to *a number* based on first dose card or history coverage *a number* and documented drop-out between first *a number* and third *a number* doses.
@@ -781,10 +782,10 @@ query calibrate_from_single is:
     the reported data in sdn for dtp1 for 2006 is which number Coverage calibrated from anchor value 0.5 and year 2005 and reported time series value which number ReportedTimeSeries with which number Adj as adjustment.
 
 query recall_adjusted is:
-    the third dose survey data adjusted for recall bias with survey result as 0.67 and title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in which country C for dtp3 for which year Y is which number Coverage due to the fact that which explanation.
+    the third dose survey data adjusted for recall bias with survey result as which number and which description shows that the coverage in which country C for dtp3 for which year Y is which number Coverage due to the fact that which explanation.
 
 query survey_modified is:
-    the modified survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in a country C for dtp3 for a year Y is modified from which number Ps to which number Coverage due to the fact that which explanation E1.
+    the modified survey data with which description shows that which indication.
 
 query survey is:
     the survey data with title as which title and survey type as which type and year data collected from which year and card retention as which number and confirmation method as which method and age cohort of which group and validity till which year Y1 and sample size as which number N1 shows that which coverage.
@@ -793,7 +794,8 @@ query survey_accept is:
     the accepted survey data shows that the coverage in which country for which vaccine for which year is which number Coverage.
 
 query wuenic is:
-    WUENIC decides the coverage in sdn for dtp1 for which year is which number due to the fact that which rule.
+    WUENIC decides the coverage in which country for which vaccine for which year is which number due to the fact that which rule.
 
 query chart is:
     which chart depicts the coverage for which country for which vaccine.
+    
