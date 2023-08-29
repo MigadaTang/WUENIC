@@ -36,6 +36,7 @@ the templates are:
     there is reported data after *a year* in *a country* for *a vaccine*.
 
     % anchor points
+    the type and the coverage of an anchor year .. is *a type* and *a number*. %todo
     there is a type *a type* anchor point indicating that *an indication*.
     there is a type *a type* anchor point before *a year* for *a country* for *a vaccine*.
     there is a type *a type* anchor point after *a year* for *a country* for *a vaccine*.
@@ -89,8 +90,8 @@ the templates are:
 the knowledge base wuenic includes:
     WUENIC decides the coverage in a country for a vaccine for a year is a number due to the fact that rule RO and an explanation E1 if
     estimate is required for the country for the vaccine for the year
-    and it is not the case that 
-        there is a type a type AT1 anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number N2 due to the fact that an explanation E2
+    and it is not the case that
+        there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number N2
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for the year should be changed from a number N3 to a number N4 according to rule assignWUENIC and an explanation E3
     and there is reported time series showing that the coverage in the country for the vaccine for the year is the number due to the fact that E1.
@@ -98,7 +99,7 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country C for dtp1 for a year Y is a number Cov due to the fact that rule RMF and no DTP1 data available for any year estimate based on the relationship between DTP1 and DTP3 from 282 surveys if
     estimate is required for C for dtp1 for Y
     and it is not the case that
-        there is reported time series showing that the coverage in C for dtp1 for Y is a number P1 due to the fact that an explanation E1
+        there is reported time series showing that the coverage in C for dtp1 for Y is a number P1
     and it is not the case that
         the average of a number Nsurvey surveys in C for dtp1 for a year Y1 is a number P2
     and it is not the case that
@@ -117,13 +118,13 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number Cov due to the fact that rule CBAP a type AT1 and a type AT2 and reported data a number Preported calibrated between a year Y1 and a year Y2 and an explanation E1 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that an explanation E2
+        there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1
     and it is not the case that
         the year Y of the coverage for the country for the vaccine is between wgd segment
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and an explanation E3
-    and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1 due to the fact that an explanation E4
-    and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2 due to the fact that an explanation E5
+    and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1
+    and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2
     and Y1 < Y
     and Y < Y2
     and AT1 is in [X, S]
@@ -139,8 +140,8 @@ the knowledge base wuenic includes:
     and it is not the case that
         the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and it is not the case that
-        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E2
-    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Psurv due to the fact that an explanation E3
+        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3
+    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Psurv
     and AT2 is in [X, S]
     and Y1 < Y
     and it is not the case that 
@@ -149,17 +150,16 @@ the knowledge base wuenic includes:
     and the coverage in C for V for Y2 has been calibrated
     and the reported data in C for V for Y is Coverage calibrated from anchor value Psurv and year Y1 and reported time series value ReportedTimeSeries with a number Adj as adjustment.
 
-
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number Cov due to the fact that rule IBAP a type AT1 and a type AT2 and estimate interpolated between a year Y1 and a year Y2 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that an explanation E1
+        there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1
     and it is not the case that
         the year Y of the coverage for the country for the vaccine is between wgd segment
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and an explanation E2
-    and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1 due to the fact that an explanation E3
-    and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2 due to the fact that an explanation E4
+    and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1
+    and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2
     and Y1 < Y
     and Y < Y2
     and AT1 is in [X, S]
@@ -173,11 +173,11 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number Coverage due to the fact that rule RBAP a type AT1 and a type AT2 and an explanation E1 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that an explanation E2
+        there is a type a type RAT1 anchor point indicating that the coverage in the country for the vaccine for Y is a number N1
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N2 to a number N3 according to rule assignWUENIC and an explanation E3
-    and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R2 due to the fact that an explanation R21
-    and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for a year Y2 is a number R3 due to the fact that an explanation R31
+    and there is a type AT1 anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R2
+    and there is a type AT2 anchor point indicating that the coverage in the country for the vaccine for a year Y2 is a number R3
     and AT1 is in [R, XR]
     and AT2 is in [R, XR]
     and Y1 < Y
@@ -193,8 +193,8 @@ the knowledge base wuenic includes:
     and there is an interpolate segment between Y1 and Y2 for the country for the vaccine because E1
     and Y1 < Y
     and Y < Y2
-    and there is a type a type N4 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1 due to the fact that an explanation N5
-    and there is a type a type N7 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2 due to the fact that an explanation N8
+    and there is a type a type N4 anchor point indicating that the coverage in the country for the vaccine for Y1 is a number P1
+    and there is a type a type N7 anchor point indicating that the coverage in the country for the vaccine for Y2 is a number P2
     and the coverage of Y is P as an interpolation between P1 of Y1 and P2 of Y2.
 
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number P due to the fact that rule RFAP a type T and estimate based on trend in reported data and an explanation E1 if
@@ -202,8 +202,8 @@ the knowledge base wuenic includes:
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
-        there is a type a type R3 anchor point indicating that the coverage in the country for the vaccine for Y is a number R4 due to the fact that an explanation E3
-    and there is a type T anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R6 due to the fact that an explanation E4
+        there is a type a type R3 anchor point indicating that the coverage in the country for the vaccine for Y is a number R4
+    and there is a type T anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R6
     and T is in [R, XR]
     and Y < Y1
     and it is not the case that
@@ -213,10 +213,10 @@ the knowledge base wuenic includes:
     WUENIC decides the coverage in a country for a vaccine for a year Y is a number P due to the fact that rule RFAP a type T and estimate based on trend in reported data and an explanation E1 if
     estimate is required for the country for the vaccine for Y
     and it is not the case that
-        there is a type a type R3 anchor point indicating that the coverage in the country for the vaccine for Y is a number R4 due to the fact that an explanation E2
+        there is a type a type R3 anchor point indicating that the coverage in the country for the vaccine for Y is a number R4
     and it is not the case that 
         the working group decides that the coverage in the country for the vaccine for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E3
-    and there is a type T anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R6 due to the fact that an explanation E4
+    and there is a type T anchor point indicating that the coverage in the country for the vaccine for a year Y1 is a number R6
     and T is in [R, XR]
     and Y1 < Y
     and it is not the case that
@@ -228,8 +228,8 @@ the knowledge base wuenic includes:
     and it is not the case that
         the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
-        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E3
-    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Coverage due to the fact that an explanation E4
+        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3
+    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Coverage
     and AT2 is in [X, S]
     and a year Y2 is Y1 + 1
     and it is not the case that
@@ -244,8 +244,8 @@ the knowledge base wuenic includes:
     and it is not the case that
         the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E2
     and it is not the case that
-        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E3
-    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Coverage due to the fact that an explanation E4
+        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3
+    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Coverage
     and AT2 is in [X, S]
     and a year Y2 is Y1 - 1
     and it is not the case that
@@ -260,10 +260,10 @@ the knowledge base wuenic includes:
     and it is not the case that
         the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and it is not the case that
-        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that an explanation E2
+        there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is a number N3
     and it is not the case that
         there is an interpolate segment between Y1 and a year Y2 for C for V because a reason R1
-    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Psurv due to the fact that an explanation E3
+    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y1 is Psurv
     and AT2 is in [X, S]
     and Y < Y1
     and it is not the case that
@@ -276,17 +276,17 @@ the knowledge base wuenic includes:
     estimate is required for C for V for Y
     and it is not the case that
         the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
-    and there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is AnchorValue due to the fact that an explanation E2
+    and there is a type a type AT1 anchor point indicating that the coverage in C for V for Y is AnchorValue
     and it is not the case that
         Y1 = Y
     and it is not the case that
         there is a type a type AT2 anchor point before Y1 for C for V
     and it is not the case that
         there is a type a type AT3 anchor point after Y1 for C for V
-    and there is reported time series showing that the coverage in C for V for Y1 is a number ReportedValueAtAnchor due to the fact that an explanation E3
+    and there is reported time series showing that the coverage in C for V for Y1 is a number ReportedValueAtAnchor
     and it is not the case that
         AnchorValue = ReportedValueAtAnchor
-    and there is reported time series showing that the coverage in C for V for Y is ReportedTimeSeries due to the fact that an explanation E4
+    and there is reported time series showing that the coverage in C for V for Y is ReportedTimeSeries
     and the reported data in C for V for Y is Coverage calibrated from anchor value AnchorValue and year Y1 and reported time series value ReportedTimeSeries with a number Adj as adjustment.
 
 the knowledge base survey includes:
@@ -298,10 +298,9 @@ the knowledge base survey includes:
     and Average = Total / Nsurvey.
 
     the survey data a number SD supports report data a number RD if
-    a number diff1 is SD - RD
-    and a number diff2 is RD - SD
-    and diff1 =< 0.101
-    and diff2 >= -0.101.
+    a number difference is SD - RD
+    and difference =< 0.101
+    and difference >= -0.101.
 
     the accepted survey data shows that the coverage in a country C for a vaccine V for a year Y is a number Coverage if
     the survey data with title as a title T and survey type as a type ST and year data collected from a year Y1 and card retention as a number N and confirmation method as a method M and age cohort of a group G and validity till a year Y2 and sample size as a number SS shows that the coverage in C for V for Y is Coverage
@@ -359,15 +358,15 @@ the knowledge base survey includes:
 the knowledge base reported includes:
 
     there is reported data accepted in a country for a vaccine before a year Y if
-    the reported data is accepted for indicating that the coverage in the country for the vaccine for a year Yb is a number N1 due to the fact that a reason R1
+    the reported data is accepted for indicating that the coverage in the country for the vaccine for a year Yb is a number N1
     and Yb < Y.
 
     there is reported data accepted in a country for a vaccine after a year Y if
-    the reported data is accepted for indicating that the coverage in the country for the vaccine for a year Ya is a number N1 due to the fact that a reason R1
+    the reported data is accepted for indicating that the coverage in the country for the vaccine for a year Ya is a number N1
     and Ya > Y.
 
     there is reported data accepted in a country for a vaccine between a year EarlyYear and a year LateYear if
-    the reported data is accepted for indicating that the coverage in the country for the vaccine for a year Yb is a number N1 due to the fact that a reason R1
+    the reported data is accepted for indicating that the coverage in the country for the vaccine for a year Yb is a number N1
     and Yb > EarlyYear
     and Yb < LateYear.
 
@@ -378,9 +377,9 @@ the knowledge base reported includes:
     there is reported time series showing that the coverage in a country for a vaccine for a year Y is a number P due to the fact that missing or reported reported data interpolated between reported values of a number Pbefore in a year Ybefore and a number Pafter in a year Yafter if
     estimate is required for the country for the vaccine for Y
     and it is not the case that 
-        the reported data is accepted for indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that a reason R1
-    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Ybefore is Pbefore due to the fact that a reason R2
-    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Yafter is Pafter due to the fact that a reason R3
+        the reported data is accepted for indicating that the coverage in the country for the vaccine for Y is a number N1
+    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Ybefore is Pbefore
+    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Yafter is Pafter
     and Ybefore < Y
     and Y < Yafter
     and it is not the case that
@@ -390,8 +389,8 @@ the knowledge base reported includes:
     there is reported time series showing that the coverage in a country for a vaccine for a year Y is a number Cov due to the fact that missing or ignored reported value extrapolated from a year Y1 reported value of Cov if
     estimate is required for the country for the vaccine for Y
     and it is not the case that 
-        the reported data is accepted for indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that a reason R1
-    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Y1 is Cov due to the fact that a reason R2
+        the reported data is accepted for indicating that the coverage in the country for the vaccine for Y is a number N1
+    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Y1 is Cov
     and Y1 < Y
     and it is not the case that
         there is reported data accepted in the country for the vaccine between Y1 and Y
@@ -401,8 +400,8 @@ the knowledge base reported includes:
     there is reported time series showing that the coverage in a country for a vaccine for a year Y is a number Cov due to the fact that missing or ignored reported value extrapolated from a year Y1 reported value of Cov if
     estimate is required for the country for the vaccine for Y
     and it is not the case that 
-        the reported data is accepted for indicating that the coverage in the country for the vaccine for Y is a number N1 due to the fact that a reason R1
-    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Y1 is Cov due to the fact that a reason R2
+        the reported data is accepted for indicating that the coverage in the country for the vaccine for Y is a number N1
+    and the reported data is accepted for indicating that the coverage in the country for the vaccine for Y1 is Cov
     and Y1 > Y
     and it is not the case that
         there is reported data accepted in the country for the vaccine between Y and Y1
@@ -412,7 +411,7 @@ the knowledge base reported includes:
     the reported data is accepted for indicating that the coverage in a country for a vaccine for a year is a number Cov due to the fact that Cov if
     the reported data shows that the coverage in the country for the vaccine for the year is Cov
     and it is not the case that 
-        the reported data is excluded for indicating that the coverage in the country for the vaccine for the year is Cov due to the fact that a reason R1.
+        the reported data is excluded for indicating that the coverage in the country for the vaccine for the year is Cov.
 
     the reported data is excluded for indicating that the coverage in a country for a vaccine for a year is a number Cov due to the fact that the year reported data Cov not used as it is greater than 100 percent if
     the reported data shows that the coverage in the country for the vaccine for the year is Cov
@@ -454,13 +453,13 @@ the knowledge base anchor point includes:
     there is a type XR anchor point indicating that the coverage in a country for a vaccine for a year is a report number due to the fact that an explanation if
     estimate is required for the country for the vaccine for the year
     and the working group decides that the coverage in the country for the vaccine for the year should be changed from a random number to a working group number according to rule assignAnchor and the explanation
-    and there is reported time series showing that the coverage in the country for the vaccine for the year is the report number due to the fact that a random reason
+    and there is reported time series showing that the coverage in the country for the vaccine for the year is the report number
     and the report number = the working group number.
 
     there is a type X anchor point indicating that the coverage in a country for a vaccine for a year is a working group number due to the fact that an explanation if
     estimate is required for the country for the vaccine for the year
     and the working group decides that the coverage in the country for the vaccine for the year should be changed from a random number to the working group number according to rule assignAnchor and the explanation
-    and there is reported time series showing that the coverage in the country for the vaccine for the year is a report number due to the fact that a random reason
+    and there is reported time series showing that the coverage in the country for the vaccine for the year is a report number
     and it is not the case that 
         the report number = the working group number.
 
@@ -468,8 +467,8 @@ the knowledge base anchor point includes:
     estimate is required for the country for the vaccine for the year
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and an explanation R3
-    and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported due to the fact that a reason R4
-    and the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is a number R5 due to the fact that a reason R6
+    and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported
+    and the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is a number R5
     and the average of Nsurvey surveys in the country for the vaccine for the year is Psurvey
     and the survey data Psurvey supports report data Preported.
 
@@ -477,9 +476,9 @@ the knowledge base anchor point includes:
     estimate is required for the country for the vaccine for the year
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and an explanation R3
-    and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported due to the fact that a reason R4
+    and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported
     and it is not the case that 
-        the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is a number R5 due to the fact that a reason R6
+        the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is a number R5
     and the average of Nsurvey surveys in the country for the vaccine for the year is Psurvey
     and the survey data Psurvey supports report data Preported.
 
@@ -487,25 +486,25 @@ the knowledge base anchor point includes:
     estimate is required for the country for the vaccine for the year
     and it is not the case that
         the working group decides that the coverage in the country for the vaccine for the year should be changed from a number R1 to a number R2 according to rule assignAnchor and an explanation E1
-    and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported due to the fact that a reason R4
+    and there is reported time series showing that the coverage in the country for the vaccine for the year is Preported
     and the average of a number Nsurvey surveys in the country for the vaccine for the year is Psurvey
     and it is not the case that
         the survey data Psurvey supports report data Preported.
 
     there are type a type T1 anchor points between a year EarlyYear and a year LateYear for a country for a vaccine if
-    there is a type T1 anchor point indicating that the coverage in the country for the vaccine for a year Yb is a number R1 due to the fact that an explanation R11
+    there is a type T1 anchor point indicating that the coverage in the country for the vaccine for a year Yb is a number R1
     and Yb > EarlyYear
     and Yb < LateYear.
 
     there is a type a type T anchor point before a year Y for a country for a vaccine if
     estimate is required for the country for the vaccine for a year Yb
     and Yb < Y
-    and there is a type T anchor point indicating that the coverage in the country for the vaccine for Yb is a number R1 due to the fact that an explanation R11.
+    and there is a type T anchor point indicating that the coverage in the country for the vaccine for Yb is a number R1.
 
     there is a type a type T anchor point after a year Y for a country for a vaccine if
     estimate is required for the country for the vaccine for a year Ya
     and Ya > Y
-    and there is a type T anchor point indicating that the coverage in the country for the vaccine for Ya is a number R1 due to the fact that an explanation R11.
+    and there is a type T anchor point indicating that the coverage in the country for the vaccine for Ya is a number R1.
 
 
 the knowledge base wgd_segment includes:
@@ -514,26 +513,40 @@ the knowledge base wgd_segment includes:
     and Y > Ybegin
     and Y < Yend.
 
+the knowledge base simplified_rules includes:
+
+    there is a type a type T anchor point indicating that the coverage in a country for a vaccine for a year is a number if
+    there is a type T anchor point indicating that the coverage in the country for the vaccine for the year is the number due to the fact that an explanation.
+
+    there is reported time series showing that the coverage in a country for a vaccine for a year is a number if
+    there is reported time series showing that the coverage in the country for the vaccine for the year is the number due to the fact that an explanation.
+
+    the reported data is accepted for indicating that the coverage in a country for a vaccine for a year is a number  if
+    the reported data is accepted for indicating that the coverage in the country for the vaccine for the year is the number due to the fact that an explanation.
+
+    the reported data is excluded for indicating that the coverage in a country for a vaccine for a year is a number if
+    the reported data is excluded for indicating that the coverage in the country for the vaccine for the year is the number due to the fact that an explanation.
+
 the knowledge base utilities includes:
     the coverage of a year Y is a number Coverage as an interpolation between a number P1 of a year Y1 and a number P2 of a year Y2 if
     Coverage = P1 + (P2 - P1) * (Y - Y1) / (Y2 - Y1). 
 
     anchor points and reported time series have the same trend in a country C for a vaccine V between a year Y1 and a year Y2 if
-    there is a type a type T1 anchor point indicating that the coverage in C for V for Y1 is a number P1 due to the fact that an explanation R1
-    and there is a type a type T2 anchor point indicating that the coverage in C for V for Y2 is a number P2 due to the fact that an explanation R2
-    and there is reported time series showing that the coverage in C for V for Y1 is a number P3 due to the fact that a reason R3
-    and there is reported time series showing that the coverage in C for V for Y2 is a number P4 due to the fact that a reason R4
+    there is a type a type T1 anchor point indicating that the coverage in C for V for Y1 is a number P1
+    and there is a type a type T2 anchor point indicating that the coverage in C for V for Y2 is a number P2
+    and there is reported time series showing that the coverage in C for V for Y1 is a number P3
+    and there is reported time series showing that the coverage in C for V for Y2 is a number P4
     and P1 - P2 > 0
             and P3 - P4 > 0
 	    or P1 - P2 < 0
             and P3 - P4 < 0.
 
     the reported data in a country C for a vaccine V for a year Y is a number ReportedCalibrated calibrated between a year Y1 and a year Y2 with a number Adj as adjustment if
-    there is reported time series showing that the coverage in C for V for Y1 is a number PR1 due to the fact that a reason R1
-    and there is reported time series showing that the coverage in C for V for Y2 is a number PR2 due to the fact that a reason R2
-    and there is a type a type AT1 anchor point indicating that the coverage in C for V for Y1 is a number Anchor1 due to the fact that a reason R3
-    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y2 is a number Anchor2 due to the fact that a reason R4
-    and there is reported time series showing that the coverage in C for V for Y is a number ReportedTimeSeriesValue due to the fact that a reason R5
+    there is reported time series showing that the coverage in C for V for Y1 is a number PR1
+    and there is reported time series showing that the coverage in C for V for Y2 is a number PR2
+    and there is a type a type AT1 anchor point indicating that the coverage in C for V for Y1 is a number Anchor1
+    and there is a type a type AT2 anchor point indicating that the coverage in C for V for Y2 is a number Anchor2
+    and there is reported time series showing that the coverage in C for V for Y is a number ReportedTimeSeriesValue
     and the coverage of Y is a number ReportedInterpolated as an interpolation between PR1 of Y1 and PR2 of Y2
     and the coverage of Y is a number AnchorInterpolated as an interpolation between Anchor1 of Y1 and Anchor2 of Y2
     and Adj is AnchorInterpolated - ReportedInterpolated
@@ -541,9 +554,9 @@ the knowledge base utilities includes:
 
     % calibrate_from_single
     the reported data in a country C for a vaccine V for a year Y is a number ReportedCalibrated calibrated from anchor value a number AnchorValue and year a year Y1 and reported time series value a number ReportedTimeSeriesValue with a number Adj as adjustment if
-    there is reported time series showing that the coverage in C for V for Y1 is a number Reported due to the fact that a reason R1
+    there is reported time series showing that the coverage in C for V for Y1 is a number Reported
     and Adj is AnchorValue - Reported
-    and there is reported time series showing that the coverage in C for V for Y is ReportedTimeSeriesValue due to the fact that a reason R2
+    and there is reported time series showing that the coverage in C for V for Y is ReportedTimeSeriesValue
     and ReportedCalibrated is ReportedTimeSeriesValue + Adj.
 
     % wuenic_calibrated
@@ -552,9 +565,9 @@ the knowledge base utilities includes:
     and it is not the case that
         the working group decides that the coverage in C for V for Y should be changed from a number N1 to a number N2 according to rule assignWUENIC and an explanation E1
     and it is not the case that
-        there is a type a type AT3 anchor point indicating that the coverage in C for V for Y is a number N3 due to the fact that a reason R3
-    and there is a type a type AT1 anchor point indicating that the coverage in C for V for a year Y1 is a number N4 due to the fact that a reason R1
-    and there is a type a type AT2 anchor point indicating that the coverage in C for V for a year Y2 is a number N5 due to the fact that a reason R2
+        there is a type a type AT3 anchor point indicating that the coverage in C for V for Y is a number N3
+    and there is a type a type AT1 anchor point indicating that the coverage in C for V for a year Y1 is a number N4
+    and there is a type a type AT2 anchor point indicating that the coverage in C for V for a year Y2 is a number N5
     and Y1 < Y
     and Y < Y2
     and AT1 is in [X, S]
@@ -581,33 +594,33 @@ the plots are:
     there is a scenario with surveys for C for V
     and the title of the chart for C for V is a title T
     and the chart has T as title and Year as x axis label and Coverage as y axis label and x axis limits from 1997 to 2009 and y axis limits from 0 to 1.25
-    and the chart displays the year and the number
-        from WUENIC decides the coverage in C for V for a year is a number due to the fact that a rule
+    and from WUENIC decides the coverage in C for V for a year is a number due to the fact that a rule
+        the chart displays the year and the number
         as a line 
         with a colour of blue 
         and a width of 5
-    and the chart displays the year and the number
-        from the government data shows that the coverage in C for V for a year is a number
+    and from the government data shows that the coverage in C for V for a year is a number
+        the chart displays the year and the number
         as points 
         with a colour of pink 
-        and a plotting character of 20 
+        and a plotting character of smaller circle 
         and a character expansion factor of 3.0
-    and the chart displays the year and the number
-        from the administrative data shows that the coverage in C for V for a year is a number
+    and from the administrative data shows that the coverage in C for V for a year is a number
+        the chart displays the year and the number
         as points 
         with a colour of red 
-        and a plotting character of 8 
+        and a plotting character of star 
         and a character expansion factor of 1.4
-    and the chart displays the year and the number
-        from the collected survey data shows that the coverage in C for V for a year is a number
+    and from the collected survey data shows that the coverage in C for V for a year is a number
+        the chart displays the year and the number
         as vertical lines 
         with a colour of red 
         and a width of 3
-    and the chart displays the year and the number
-        from the accepted survey data shows that the coverage in C for V for a year is a number
+    and from the accepted survey data shows that the coverage in C for V for a year is a number
+        the chart displays the year and the number
         as points 
         with a colour of green 
-        and a plotting character of 18 
+        and a plotting character of filled diamond 
         and a character expansion factor of 2.0
     and the chart displays a straight line 
         with a height of 1.0 
@@ -615,31 +628,31 @@ the plots are:
     and the chart displays legend at topright 
         with a text of ['WHO-UNICEF estimate', 'Official government estimate','Administrative coverage','Survey 12-23 months of age, card or history','Accepted survey, resolved value'] 
         and a colour of [blue,pink,red,red,green] 
-        and a plotting character of [-1,20,8,124,18] 
+        and a plotting character of [none,smaller circle,star,vertical bar,filled diamond]
         and a character expansion factor of 1.0 
-        and a line type of [1,-1,-1,-1,-1] 
-        and a box type of n.
+        and a line type of [solid,none,none,none,none]
+        and a box type of no box.
     
 	a chart depicts the coverage for a country C for a vaccine V if
     there is a scenario without surveys for C for V
     and the title of the chart for C for V is a title T
     and the chart has T as title and Year as x axis label and Coverage as y axis label and x axis limits from 1997 to 2009 and y axis limits from 0 to 1.25
-    and the chart displays the year and the number
-        from WUENIC decides the coverage in C for V for a year is a number due to the fact that a rule
+    and from WUENIC decides the coverage in C for V for a year is a number due to the fact that a rule
+        the chart displays the year and the number
         as a line 
         with a colour of blue 
         and a width of 5
-    and the chart displays the year and the number
-        from the government data shows that the coverage in C for V for a year is a number
+    and from the government data shows that the coverage in C for V for a year is a number
+        the chart displays the year and the number
         as points 
         with a colour of pink 
-        and a plotting character of 20 
+        and a plotting character of smaller circle 
         and a character expansion factor of 3.0
-    and the chart displays the year and the number
-        from the administrative data shows that the coverage in C for V for a year is a number
+    and from the administrative data shows that the coverage in C for V for a year is a number
+        the chart displays the year and the number
         as points 
         with a colour of red 
-        and a plotting character of 8 
+        and a plotting character of star
         and a character expansion factor of 1.4
     and the chart displays a straight line 
         with a height of 1.0 
@@ -647,10 +660,37 @@ the plots are:
     and the chart displays legend at topright 
         with a text of ['WHO-UNICEF estimate', 'Official government estimate','Administrative coverage'] 
         and a colour of [blue,pink,red] 
-        and a plotting character of [-1,20,8] 
+        and a plotting character of [none,smaller circle,star] 
         and a character expansion factor of 1.0 
-        and a line type of [1,-1,-1] 
-        and a box type of n.
+        and a line type of [solid,none,none]
+        and a box type of no box.
+
+    a chart depicts the coverage for a country C for a vaccine V if
+    there is a scenario with surveys for C for V
+    and V is the first dose of an other vaccine
+    and the title of the chart for C for V is a title T
+    and the chart has T as title and Year as x axis label and Coverage as y axis label and x axis limits from 1997 to 2009 and y axis limits from 0 to 1.25
+    and from WUENIC decides the coverage in C for V for a year is a number due to the fact that a rule
+        the chart displays the year and the number
+        as a line 
+        with a colour of blue 
+        and a width of 5
+    and from WUENIC decides the coverage in C for the other vaccine for a year is a number due to the fact that a rule
+        the chart displays the year and the number
+        as a line 
+        with a colour of red 
+        and a width of 5
+    and the chart displays a straight line 
+        with a height of 1.0 
+        and a colour of pink 
+        and a width of 2
+    and the chart displays legend at topright 
+        with a text of ['WHO-UNICEF estimate for DTP1', 'WHO-UNICEF estimate for DTP3'] 
+        and a colour of [blue,red] 
+        and a plotting character of [none,none] 
+        and a character expansion factor of 1.0 
+        and a line type of [solid,solid]
+        and a box type of no box.
 
 query sudden_temporal_change is:
     there is sudden temporal change in which number in sdn for bcg for 1999.
