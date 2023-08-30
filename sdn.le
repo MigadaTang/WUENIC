@@ -41,7 +41,7 @@ scenario(en("
     the reported data shows that the coverage in sdn for hepb3 for 2007 is 0.91.	
     the reported data shows that the coverage in sdn for hepb3 for 2008 is 0.93.	
     the reported data shows that the coverage in sdn for hepb3 for 2009 is 0.91.	
-    the working group decides that the coverage in sdn for hepb3 for 2005 should be changed from 0 to 0 according to rule comment and HepB partially introduced in 2004 nationally in n/a reporting started in 2005.	
+    the working group decides that the coverage in sdn for hepb3 for 2005 should be changed from 0 to 0 according to comment and HepB partially introduced in 2004 nationally in n/a reporting started in 2005.	
 
     estimate is required for sdn for hib3 for 2008.	
     estimate is required for sdn for hib3 for 2009.	
@@ -52,7 +52,7 @@ scenario(en("
     the legacy data shows that the coverage in sdn for hib3 for 2008 is 0.86.	
     the reported data shows that the coverage in sdn for hib3 for 2008 is 0.93.	
     the reported data shows that the coverage in sdn for hib3 for 2009 is 0.91.	
-    the working group decides that the coverage in sdn for hib3 for 2008 should be changed from 0 to 0 according to rule comment and Hib partially introduced in 2008 reporting started in 2008 Vaccine presentation is DTPHepBHib.	
+    the working group decides that the coverage in sdn for hib3 for 2008 should be changed from 0 to 0 according to comment and Hib partially introduced in 2008 reporting started in 2008 Vaccine presentation is DTPHepBHib.	
 
     
     estimate is required for sdn for bcg for 1997.	
@@ -123,7 +123,7 @@ scenario(en("
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.25.	
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.66.	
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for bcg for 1999 is 0.41.	
-    the working group decides that the coverage in sdn for bcg for 1997 should be changed from 0.7 to 0.7 according to rule assignAnchor and legacy estimate.	
+    the working group decides that the coverage in sdn for bcg for 1997 should be changed from 0.7 to 0.7 according to assignAnchor and legacy estimate.	
 
     estimate is required for sdn for dtp1 for 1997.
     estimate is required for sdn for dtp1 for 1998.
@@ -139,8 +139,8 @@ scenario(en("
     estimate is required for sdn for dtp1 for 2008.
     estimate is required for sdn for dtp1 for 2009.
 
-    the working group decides that the coverage in sdn for dtp1 for 1997 should be changed from 0.78 to 0.78 according to rule assignAnchor and legacy estimate.
-    the working group decides that the coverage in sdn for dtp3 for 1997 should be changed from 0.55 to 0.55 according to rule assignAnchor and legacy estimate.
+    the working group decides that the coverage in sdn for dtp1 for 1997 should be changed from 0.78 to 0.78 according to assignAnchor and legacy estimate.
+    the working group decides that the coverage in sdn for dtp3 for 1997 should be changed from 0.55 to 0.55 according to assignAnchor and legacy estimate.
 
     the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp1 for 2005 is 0.71.	
     the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for dtp1 for 2005 is 0.33.	
@@ -333,7 +333,7 @@ scenario(en("
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.18.	
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.48.	
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for pol3 for 1999 is 0.27.	
-    the working group decides that the coverage in sdn for pol3 for 1997 should be changed from 0.55 to 0.55 according to rule assignAnchor and legacy estimate.	
+    the working group decides that the coverage in sdn for pol3 for 1997 should be changed from 0.55 to 0.55 according to assignAnchor and legacy estimate.	
 
 
     the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for pol1 for 2005 is 0.8.	
@@ -413,7 +413,7 @@ scenario(en("
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.18.	
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as card or history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.51.	
     the survey data with title as Sudan Multiple Indicator Cluster Survey 2000 and survey type as MICS and year data collected from 2000 and card retention as 0.27 and confirmation method as history and age cohort of 12-23 m and validity till NA and sample size as 3720 shows that the coverage in sdn for mcv for 1999 is 0.34.	
-    the working group decides that the coverage in sdn for mcv for 1997 should be changed from 0.58 to 0.58 according to rule assignAnchor and legacy estimate.	
+    the working group decides that the coverage in sdn for mcv for 1997 should be changed from 0.58 to 0.58 according to assignAnchor and legacy estimate.	
 
     
 ")).
