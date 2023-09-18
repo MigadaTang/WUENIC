@@ -45,10 +45,11 @@ the templates are:
 
     % anchor points
     the coverage in *a country* for *a vaccine* for *a year* is an anchor point.
-    the type and the coverage of the anchor point in *a country* for *a vaccine* for *a year* are *a type* and *a number*.
-    the type and the coverage of the anchor point in *a country* for *a vaccine* for *a year* are *a type* and *a number* due to the fact that *an explanation*.
     the type of the anchor point in *a country* for *a vaccine* for *a year* is *a type*.
     the coverage of the anchor point in *a country* for *a vaccine* for *a year* is *a number*.
+    the type and the coverage of the anchor point in *a country* for *a vaccine* for *a year* are *a type* and *a number*.
+    
+    the type and the coverage of the anchor point in *a country* for *a vaccine* for *a year* are *a type* and *a number* due to the fact that *an explanation*.
 
     an anchor point for *a country* for *a vaccine* is before *a year*.
     an anchor point for *a country* for *a vaccine* is after *a year*.
@@ -733,6 +734,15 @@ the plots are:
         and a character expansion factor of 1.0 
         and a line type of [solid,solid]
         and a box type of no box.
+
+scenario one is:
+    estimate is required for sdn for bcg for 1997.	
+    the administrative data shows that the coverage in sdn for bcg for 1999 is 1.02.
+    the government data shows that the coverage in sdn for bcg for 1999 is 0.92.
+    the legacy data shows that the coverage in sdn for bcg for 1997 is 0.7.
+    the reported data shows that the coverage in sdn for bcg for 1997 is 0.9.
+    the working group decides that the coverage in sdn for bcg for 1997 should be changed from 0.5 to 0.7 according to rule assignAnchor and explanation Legacy estimate.
+    the survey data with title as Sudan Household Health Survey 2006 and survey type as HHS and year data collected from 2006 and card retention as 0.35 and confirmation method as c or h <12 months and age cohort of 12-23 m and validity till NA and sample size as 1165621 shows that the coverage in sdn for bcg for 2005 is 0.73.
 
 query sudden_temporal_change is:
     there is sudden temporal change in which number in sdn for bcg for 1999.

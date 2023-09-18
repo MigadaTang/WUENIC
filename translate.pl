@@ -1,7 +1,7 @@
-['data.pl'].
+['data.pl']. % file containing the data
 
 output_estimates(Estimates) :-
-    open('survey.out',write,Out), nl(Out),
+    open('translate.out',write,Out), nl(Out),
 	output_results(Estimates,Out), close(Out).
 
 output_results([],_).
